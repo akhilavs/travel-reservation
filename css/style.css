@@ -1,0 +1,32 @@
+/*author:akhila*/
+/* Date: 09/02/2023*/
+
+.login{
+    background-color: rgba(192, 243, 243, 0.486);
+    /* width: 50%; */
+    /* min-width: auto; */
+    min-height: 0;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.973);
+}
+.main_cn{
+    background-image: url("../image/travel-and-tourism.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* min-height: auto; */
+}
+@media screen and (max-width:100px) {
+    .container-fluid{
+        padding: 0;
+    }
+    .main_cn{
+        width: 100%;
+        background-size: cover;
+    }
+    .login{
+        width: 100%;
+    }
+    
+    
+}
